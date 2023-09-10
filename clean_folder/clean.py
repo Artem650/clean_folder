@@ -39,7 +39,7 @@ def process_folder(folder_path):
             new_file_path = os.path.join(target_folder_path, new_file_name)
             shutil.move(file_path, new_file_path)
 
-            
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: python sort.py <folder_path>")
