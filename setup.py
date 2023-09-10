@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'clean-folder = clean_folder.clean:process_folder'
+            'clean-folder = clean_folder.clean:main'
         ]
     }
 )
